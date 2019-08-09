@@ -1,3 +1,5 @@
 <template>
-    <div>Visualization view step...</div>
+  <div>
+    Visualization view step...
+  </div>
 </template>

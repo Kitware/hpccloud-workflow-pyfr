@@ -1,5 +1,5 @@
 <template>
-  <div style="padding: 0 30px;">
+  <div class="ma-3">
     <h2>Introduction</h2>
     <p>
       PyFR is an open-source Python based framework for solving
@@ -35,5 +35,9 @@
         >Find out more</a
       >
     </p>
+    <v-layout>
+      <hpc-next-step />
+      <v-spacer />
+    </v-layout>
   </div>
 </template>
