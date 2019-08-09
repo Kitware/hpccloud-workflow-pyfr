@@ -1,6 +1,7 @@
 <template>
   <div>
-    Simulation View step...
+    (view)
+    <hpc-scheduler-config />
     <v-layout>
       <hpc-next-step />
       <v-spacer />
