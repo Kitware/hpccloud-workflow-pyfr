@@ -36,7 +36,7 @@
       >
     </p>
     <v-layout>
-      <hpc-next-step />
+      <hpc-next-step-button />
       <v-spacer />
     </v-layout>
   </div>
