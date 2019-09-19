@@ -33,3 +33,9 @@ export function getPayload({ project, simulation }) {
     },
   };
 }
+
+// ----------------------------------------------------------------------------
+
+export function getMetadata() {
+  return {};
+}

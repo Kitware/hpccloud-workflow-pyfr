@@ -4,6 +4,7 @@
     <hpc-job-scheduling
       :clusterFilter="clusterFilter"
       :getPayload="getPayload"
+      :getMetadata="getMetadata"
     />
     <v-layout>
       <hpc-next-step-button />
@@ -12,7 +13,7 @@
   </div>
 </template>
 <script>
-import { clusterFilter, getPayload } from './helper';
+import { clusterFilter, getPayload, getMetadata } from './helper';
 
 export default {
   name: 'PyFrViewSimulation',

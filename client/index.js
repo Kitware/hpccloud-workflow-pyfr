@@ -12,10 +12,6 @@ const pyfr = {
     type: 'pyfr',
     urls: ['/simput/pyfr.js'],
   },
-  requiredAttachments: {
-    project: ['mesh'],
-    simulation: [],
-  },
   components: {
     // NewProject: rootNewProject,
     // EditProject: rootEditProject,
@@ -149,6 +145,22 @@ const pyfr = {
     Visualization: {
       default: 'Visualization',
       run: 'Visualization (running)',
+    },
+  },
+  attachments: {
+    project: ['mesh', 'ini'],
+    simulation: ['ini'],
+  },
+  inputFiles: {
+    mesh: {
+      optional: false,
+      label: 'Mesh (msh, pyfrm)',
+      accept: '.msh,.pyfrm',
+    },
+    ini: {
+      optional: true,
+      label: 'Ini file',
+      accept: '.ini',
     },
   },
 };
