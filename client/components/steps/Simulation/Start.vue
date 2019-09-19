@@ -20,6 +20,7 @@ export default {
   methods: {
     clusterFilter,
     getPayload,
+    getMetadata,
   },
 };
 </script>

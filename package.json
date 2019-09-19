@@ -6,6 +6,7 @@
   "version": "0.0.1",
   "scripts": {
     "commit": "git cz",
+    "deploy": "npm run build && cp ./dist/PyFr* ../hpccloud-client/public/workflows/",
     "build": "vue-cli-service build client/index.js --target lib --formats umd-min --name PyFr",
     "lint": "vue-cli-service lint",
     "semantic-release": "semantic-release",
